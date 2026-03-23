@@ -44,6 +44,8 @@ while pedido != "salir":
         
     else:
             print("Opción invalida")
+            continue
+    
     if valor > 20000:
         valor -= valor * 0.10
         descuentos += 1
@@ -61,6 +63,7 @@ print(f"cafes vendidos: {total_cafe}")
 print(f"capuchinos vendidos: {total_capuchino}")
 print(f"pasteles vendidos: {total_pastel}")
 print(f"Descuentos aplicados: {descuentos}")
+
 
 
 

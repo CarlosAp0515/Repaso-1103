@@ -51,6 +51,7 @@ print(f"cantidad de adutltos: {adultos}")
 print(f"Cantidad de adultos mayores: {adultos_m}")
 
 
+
         
     
 
